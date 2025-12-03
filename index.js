@@ -21,7 +21,6 @@ const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 // Database Handling
 // =================================================================
 
-// Load data from JSON files, or create them if they don't exist
 const loadDatabase = (path, defaultValue = {}) => {
     try {
         if (fs.existsSync(path)) {
@@ -40,7 +39,6 @@ const loadDatabase = (path, defaultValue = {}) => {
 let licenseKeys = loadDatabase(KEYS_DB_PATH, {});
 let licensedUsers = loadDatabase(USERS_DB_PATH, {});
 
-// Save data to JSON files
 const saveData = () => {
     try {
         fs.writeFileSync(KEYS_DB_PATH, JSON.stringify(licenseKeys, null, 2));
@@ -54,33 +52,18 @@ const saveData = () => {
 // Helper Functions
 // =================================================================
 
-/**
- * Checks if a user is the administrator.
- * @param {number} userId - The user's Telegram ID.
- * @returns {boolean} - True if the user is an admin.
- */
 const isAdmin = (userId) => {
     return userId === ADMIN_ID;
 };
 
-/**
- * Checks if a user has a valid, non-expired license.
- * @param {number} userId - The user's Telegram ID.
- * @returns {boolean} - True if the user has a valid license.
- */
 const isLicensed = (userId) => {
     const user = licensedUsers[userId];
     if (!user) return false;
 
     const expiresAt = new Date(user.expiresAt);
-    return expiresAt > new Date(); // Check if expiration date is in the future
+    return expiresAt > new Date(); 
 };
 
-/**
- * Generates a new license key.
- * @param {number} durationDays - The duration of the license in days.
- * @returns {string} - The newly generated key.
- */
 const generateKey = (durationDays) => {
     const key = `${BOT_NAME}-${uuidv4().toUpperCase().slice(0, 8)}-${uuidv4().toUpperCase().slice(0, 8)}`;
     licenseKeys[key] = {
@@ -330,8 +313,8 @@ bot.on('callback_query', (callbackQuery) => {
 // =================================================================
 console.log(`${BOT_NAME} Bot is running...`);
 
-// Error handling to keep the bot alive
 bot.on('polling_error', (error) => {
     console.error(`Polling error: ${error.code} - ${error.message}`);
 
 });
+
