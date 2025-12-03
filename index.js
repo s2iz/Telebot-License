@@ -6,9 +6,9 @@ const { v4: uuidv4 } = require('uuid');
 // Configuration
 // =================================================================
 
-const BOT_TOKEN = '6447302958:AAGJS0k-yjR75LfK1m-rQzRTY-bI5O_ooF4';
-const ADMIN_ID = 6324455737;
-const BOT_NAME = 's2iz'; 
+const BOT_TOKEN = '-';
+const ADMIN_ID = -;
+const BOT_NAME = '-'; 
 
 // Database file paths
 const KEYS_DB_PATH = './keys.json';
@@ -333,4 +333,5 @@ console.log(`${BOT_NAME} Bot is running...`);
 // Error handling to keep the bot alive
 bot.on('polling_error', (error) => {
     console.error(`Polling error: ${error.code} - ${error.message}`);
+
 });
