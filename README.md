@@ -12,10 +12,18 @@ Here're some of the project's best features:
 
 *   Secure Access Control: Prevents unauthorized use by requiring users to input a valid license key for bot access.
 *   End-User Interface: A streamlined interface for users to effortlessly activate their licenses and begin using the bot.
--   Admin Dashboard: A comprehensive administrative panel that allows managers to:
-   - Generate new license keys (individually or in batches).
-*   Monitor the status of all keys (e.g. Active Expired Revoked Used).
-*   Manage user licenses and permissions centrally.
+- Admin Dashboard: A comprehensive administrative panel that allows managers to:
+  - Generate new license keys (individually or in batches).
+  - Monitor the status of all keys (e.g. Active Expired Revoked Used).
+  - Manage user licenses and permissions centrally.
+
+# <h2>Bot Commands</h2>
+
+| Command | Description | Access |
+| --- | --- | --- |
+| `/start` | Start the bot and show menu | Everyone |
+| `/redeem` | Activate **license key** to get access | Everyone |
+| `/admin` | Show admin control panel & generate keys | Admin |
 
 <h2>🛠️ Installation Steps:</h2>
 
@@ -39,10 +47,6 @@ npm install node-telegram-bot-api uuid
 node index.js
 ```
 
-<h2>🍰 Contribution Guidelines:</h2>
-
-  
-  
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
