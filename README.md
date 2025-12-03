@@ -1,7 +1,7 @@
 <p align="center"><img src="https://github.com/s2iz/Telebot-License/blob/main/image/telebot.png?raw=true" width="750"></p>
 <p align="center"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&link=https%3A%2F%2Fnodejs.org%2Fen%2Fdownload"><img src="https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black&logoSize=auto" alt="shields"><img src="https://img.shields.io/badge/Telebot-2ca5e0?style=for-the-badge&logo=telegram&logoColor=white&logoSize=auto" alt="shields"><img src="https://img.shields.io/badge/version-1.0-white?style=for-the-badge&labelColor=purple&logo=adobefonts&logoColor=white" alt="shields"></p>
 
-<h2>Project Screenshots:</h2>
+<h2>📸 Project Screenshots</h2>
 
 <img src="https://github.com/s2iz/Telebot-License/blob/main/image/screenshot.gif?raw=true" width="480">
 
