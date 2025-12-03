@@ -27,7 +27,7 @@ Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Install node.js from [here](https://nodejs.org/en/download)</p>
+<p>1. Install node.js from (here)[https://nodejs.org/en/download]</p>
 
 <p>2. get package.json file</p>
 
