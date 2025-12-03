@@ -12,8 +12,8 @@ Here're some of the project's best features:
 
 *   Secure Access Control: Prevents unauthorized use by requiring users to input a valid license key for bot access.
 *   End-User Interface: A streamlined interface for users to effortlessly activate their licenses and begin using the bot.
-*   Admin Dashboard: A comprehensive administrative panel that allows managers to:
-*   Generate new license keys (individually or in batches).
+-   Admin Dashboard: A comprehensive administrative panel that allows managers to:
+   - Generate new license keys (individually or in batches).
 *   Monitor the status of all keys (e.g. Active Expired Revoked Used).
 *   Manage user licenses and permissions centrally.
 
