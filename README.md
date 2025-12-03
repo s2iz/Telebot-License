@@ -1,8 +1,8 @@
-<p align="center"><img src="https://github.com/s2iz/Telebot-License/blob/main/image/telebot.png?raw=true"></p>
+<p align="center"><img src="https://github.com/s2iz/Telebot-License/blob/main/image/telebot.png?raw=true" width="750"></p>
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/s2iz/Telebot-License/blob/main/image/screenshot.gif?raw=true">
+<img src="https://github.com/s2iz/Telebot-License/blob/main/image/screenshot.gif?raw=true" width="480">
 
   
   
@@ -17,7 +17,7 @@ Here're some of the project's best features:
   - Monitor the status of all keys (e.g. Active Expired Revoked Used).
   - Manage user licenses and permissions centrally.
 
-# <h2>Bot Commands</h2>
+# <h2>🕹 Bot Commands</h2>
 
 | Command | Description | Access |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Install node.js</p>
+<p>1. Install node.js from [here](https://nodejs.org/en/download)</p>
 
 <p>2. get package.json file</p>
 
@@ -40,6 +40,8 @@ npm init -y
 ```
 npm install node-telegram-bot-api uuid
 ```
+<p>5. open `index.js` and edit:
+- token</p>
 
 <p>4. run the bot</p>
 
@@ -47,7 +49,7 @@ npm install node-telegram-bot-api uuid
 node index.js
 ```
 
-<h2>💻 Built with</h2>
+<h2>:atom: Built with</h2>
 
 Technologies used in the project:
 
