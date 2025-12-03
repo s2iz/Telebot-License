@@ -1,8 +1,10 @@
 <p align="center"><img src="https://github.com/s2iz/Telebot-License/blob/main/image/telebot.png?raw=true" width="750"></p>
+<p align="center"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&link=https%3A%2F%2Fnodejs.org%2Fen%2Fdownload"><img src="https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black&logoSize=auto" alt="shields"><img src="https://img.shields.io/badge/Telebot-2ca5e0?style=for-the-badge&logo=telegram&logoColor=white&logoSize=auto" alt="shields"><img src="https://img.shields.io/badge/version-1.0-white?style=for-the-badge&labelColor=purple&logo=adobefonts&logoColor=white" alt="shields"></p>
 
 <h2>Project Screenshots:</h2>
 
 <img src="https://github.com/s2iz/Telebot-License/blob/main/image/screenshot.gif?raw=true" width="480">
+
 
   
   
@@ -25,33 +27,47 @@ Here're some of the project's best features:
 | `/redeem` | Activate **license key** to get access | Everyone |
 | `/admin` | Show admin control panel & generate keys | Admin |
 
+## ⚙️ Configuration
+
+The bot is configured through the `index.js` file:
+
+```javascript
+
+const BOT_TOKEN = 'Bot token';
+const ADMIN_ID = bot admin id;
+const BOT_NAME = 'Bot name'; 
+
+```
+
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Install node.js from [Here](https://nodejs.org/en/download). </p>
+1. Install node.js from [here](https://nodejs.org/en/download)
 
-<p>2. get package.json file</p>
+2. get package.json file
 
 ```
 npm init -y
 ```
 
-<p>3. install packages</p>
+3. install packages</p>
 
 ```
 npm install node-telegram-bot-api uuid
 ```
-<p>5. open `index.js` and edit:
-- token</p>
-
-<p>4. run the bot</p>
+4. run the bot</p>
 
 ```
 node index.js
 ```
 
-<h2>:atom: Built with</h2>
+## 📜 License
 
-Technologies used in the project:
+> [!NOTE]
+> This project is licensed under the MIT License - see the LICENSE file for details.
 
-*   JavaSript
-*   Node.js
+> [!WARNING]
+> This project is 100% free and no one has the right to sell it.
+
+## 👨‍💻 Credits
+
+* Developed with 💜 by [Abdelrahman](https://guns.lol/33/) 
